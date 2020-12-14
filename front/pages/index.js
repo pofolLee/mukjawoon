@@ -1,23 +1,13 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+
+import Link from 'next/link'
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-      </main>
-
-      <footer className={styles.footer}>
-      </footer>
-    </div>
-  )
+    return (
+        <div>
+            <h2>메인화면</h2>
+            <Link href='/signUp'>
+                <a>회원가입하러 가기</a>
+            </Link>
+        </div>
+    )
 }
