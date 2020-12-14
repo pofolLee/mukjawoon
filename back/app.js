@@ -102,7 +102,9 @@ app.delete('/api/deleteTest/:id', (req, res) => {
     res.send('delete test success');
 });
 
-// 참조 블로그 : https://velog.io/@smooth97/Node.js-Restful-API-wok2wqo7yu
+// get, post, put, delete 참고 블로그 : https://velog.io/@smooth97/Node.js-Restful-API-wok2wqo7yu
+
+// Joi 참고 블로그 : https://joi.dev/api/?v=17.3.0#arrayminlimit
 
 const port = process.env.PORT || 3500;
 app.listen(port, () => console.log(`Listening on port ${port}...`));

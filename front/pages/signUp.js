@@ -50,4 +50,10 @@ class signUp extends Component {
     }
 }
 
+/* 
+    axios 참고 사이트 : 
+    https://velog.io/@johnque/React-API-%EC%97%B0%EB%8F%99-v9k692txn5 
+    https://velopert.com/1552
+*/
+
 export default signUp;
